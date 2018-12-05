@@ -1,0 +1,29 @@
+.wrapper{
+	background-color: #96dbf1;
+}
+header{
+	/*position: sticky;
+	margin-top: 170px;*/
+	position: fixed;
+}
+#vh{
+	/*z-index: 999;*/
+	/*margin-left: 230px;*/
+	/*position: absolute;
+	margin-top: -170px;*/
+}
+#vh1{
+	margin: 0 15%;
+	border: 3px solid #00c0ef;
+}
+.user-panel{
+	margin-top: -20%;
+}
+.abc{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+.treeview:before{
+	background-color: #00c0ef;
+}
