@@ -10,7 +10,7 @@ if (isset($_SESSION["account_admin"])) {
 	  'user' => ['dsuser','edituser','deleteuser','updateuser'],
 	  'hocphan'=> ['dshocphan','taohocphan','inserthocphan','edithocphan','updatethocphan','deletehocphan'],
 	);
-}elseif (isset($_SESSION["account_user"])){
+}else{
 	$controllers = array(
 	  'pages' => ['home', 'error'],
 	  'baidang' => ['dsbaidang'],
@@ -19,12 +19,6 @@ if (isset($_SESSION["account_admin"])) {
 	  'monhoc' => ['dsmonhoc','showall'],
 	  'admin' => ['dangky','dktk'],
 	  'hocphan'=> ['dshocphan'],
-	);
-}else{
-	$controllers = array(
-	  'log' => ['login','logout','loginadmin','submit_login','submit_loginadmin'],
-	  'admin' => ['insertaccount','dangky','dktk'],
-	  'pages' => ['home', 'error']
 	);
 }
 
